@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Administration/Gestion.aspx">
+      <publishTime>03/06/2013 09:20:58</publishTime>
+    </File>
+    <File Include="Administration/GestionCapsulesSante.aspx">
+      <publishTime>03/05/2013 09:17:10</publishTime>
+    </File>
+    <File Include="Administration/GestionConcentration.aspx">
+      <publishTime>03/01/2013 06:53:10</publishTime>
+    </File>
+    <File Include="Administration/GestionEntreesSuspectes.aspx">
+      <publishTime>03/05/2013 09:59:09</publishTime>
+    </File>
+    <File Include="Administration/GestionSeances.aspx">
+      <publishTime>03/01/2013 07:15:04</publishTime>
+    </File>
+    <File Include="Administration/GestionUtilisateur.aspx">
+      <publishTime>03/01/2013 10:19:41</publishTime>
+    </File>
+    <File Include="Administration/Parametres.aspx">
+      <publishTime>03/11/2013 16:31:00</publishTime>
+    </File>
+    <File Include="App_Data/intensite_originaux/eleve.png">
+      <publishTime>02/28/2013 01:15:11</publishTime>
+    </File>
+    <File Include="App_Data/intensite_originaux/faible.png">
+      <publishTime>02/28/2013 01:15:11</publishTime>
+    </File>
+    <File Include="App_Data/intensite_originaux/modere.png">
+      <publishTime>02/28/2013 01:15:11</publishTime>
+    </File>
+    <File Include="App_Data/intensite_originaux/Tableau intensite4x6_Février_13final.jpg">
+      <publishTime>02/28/2013 01:15:11</publishTime>
+    </File>
+    <File Include="App_Data/intensite_originaux/Tableau intensiteÌ _zone eleve4x6.jpg">
+      <publishTime>02/28/2013 01:15:11</publishTime>
+    </File>
+    <File Include="App_Data/intensite_originaux/Tableau intensiteÌ _zone modere4x6.jpg">
+      <publishTime>02/28/2013 01:15:11</publishTime>
+    </File>
+    <File Include="App_Data/intensite_originaux/Tableau intensiteÌ _zones_faible4x6.jpg">
+      <publishTime>02/28/2013 01:15:11</publishTime>
+    </File>
+    <File Include="App_Data/photos_originaux/1.jpg">
+      <publishTime>02/28/2013 01:15:44</publishTime>
+    </File>
+    <File Include="App_Data/photos_originaux/2.jpg">
+      <publishTime>02/28/2013 01:15:44</publishTime>
+    </File>
+    <File Include="App_Data/photos_originaux/3.jpg">
+      <publishTime>02/28/2013 01:15:44</publishTime>
+    </File>
+    <File Include="App_Data/photos_originaux/4.jpg">
+      <publishTime>02/28/2013 01:15:44</publishTime>
+    </File>
+    <File Include="App_Data/photos_originaux/5.jpg">
+      <publishTime>02/28/2013 01:15:44</publishTime>
+    </File>
+    <File Include="App_Data/photos_originaux/6.jpg">
+      <publishTime>02/28/2013 01:15:44</publishTime>
+    </File>
+    <File Include="App_Data/sql/ScriptCreation.sql">
+      <publishTime>03/13/2013 20:54:13</publishTime>
+    </File>
+    <File Include="App_Data/sql/update_2013-1.sql">
+      <publishTime>03/11/2013 15:27:22</publishTime>
+    </File>
+    <File Include="App_Themes/Orange/Site.css">
+      <publishTime>03/21/2013 22:05:58</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>03/06/2013 13:05:45</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.resources.dll">
+      <publishTime>02/20/2013 21:43:12</publishTime>
+    </File>
+    <File Include="bin/CS2013.dll">
+      <publishTime>04/04/2013 15:00:09</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>02/28/2013 02:31:05</publishTime>
+    </File>
+    <File Include="bin/SanitizerProviders.dll">
+      <publishTime>02/28/2013 02:31:05</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>03/15/2013 13:50:31</publishTime>
+    </File>
+    <File Include="Images/accueil.png">
+      <publishTime>02/28/2013 01:14:25</publishTime>
+    </File>
+    <File Include="Images/Affiche pour le programme Credit sante.jpg">
+      <publishTime>02/28/2013 01:14:26</publishTime>
+    </File>
+    <File Include="Images/Affiche2013.jpg">
+      <publishTime>03/05/2013 09:43:08</publishTime>
+    </File>
+    <File Include="Images/Affiche2013R.jpg">
+      <publishTime>03/05/2013 09:43:28</publishTime>
+    </File>
+    <File Include="Images/Bougeotte.jpg">
+      <publishTime>02/28/2013 01:14:26</publishTime>
+    </File>
+    <File Include="Images/CS.ico">
+      <publishTime>02/28/2013 01:14:26</publishTime>
+    </File>
+    <File Include="Images/degrade.jpg">
+      <publishTime>02/28/2013 01:14:26</publishTime>
+    </File>
+    <File Include="Images/Icons/Accept.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/calendar.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/cancel.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/delete-icon.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/edit-icon.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/email.jpg">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/modal_close.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/modal_close_mini.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/seances.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Icons/send_email_group_letter.png">
+      <publishTime>02/28/2013 01:16:13</publishTime>
+    </File>
+    <File Include="Images/Intensite.jpg">
+      <publishTime>02/28/2013 01:14:26</publishTime>
+    </File>
+    <File Include="Images/Intensite/eleve.png">
+      <publishTime>02/28/2013 01:14:48</publishTime>
+    </File>
+    <File Include="Images/Intensite/faible.png">
+      <publishTime>02/28/2013 01:14:48</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite.jpg">
+      <publishTime>03/15/2013 13:49:08</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite_eleve.jpg">
+      <publishTime>03/15/2013 13:48:55</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite_eleve_r.jpg">
+      <publishTime>02/28/2013 01:14:48</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite_faible.jpg">
+      <publishTime>03/15/2013 13:48:40</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite_faible_r.jpg">
+      <publishTime>03/15/2013 13:55:46</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite_modere.jpg">
+      <publishTime>03/15/2013 13:49:19</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite_modere_r.jpg">
+      <publishTime>02/28/2013 01:14:48</publishTime>
+    </File>
+    <File Include="Images/Intensite/intensite_r.jpg">
+      <publishTime>02/28/2013 01:14:48</publishTime>
+    </File>
+    <File Include="Images/Intensite/modere.png">
+      <publishTime>02/28/2013 01:14:48</publishTime>
+    </File>
+    <File Include="Images/logoCouleur-01.jpg">
+      <publishTime>02/28/2013 01:14:26</publishTime>
+    </File>
+    <File Include="Images/logoCouleur-02.png">
+      <publishTime>02/28/2013 01:14:26</publishTime>
+    </File>
+    <File Include="Images/Photos/1.jpg">
+      <publishTime>02/28/2013 01:15:25</publishTime>
+    </File>
+    <File Include="Images/Photos/2.jpg">
+      <publishTime>02/28/2013 01:15:25</publishTime>
+    </File>
+    <File Include="Images/Photos/3.jpg">
+      <publishTime>02/28/2013 01:15:26</publishTime>
+    </File>
+    <File Include="Images/Photos/4.jpg">
+      <publishTime>02/28/2013 01:15:26</publishTime>
+    </File>
+    <File Include="Images/Photos/5.jpg">
+      <publishTime>02/28/2013 01:15:26</publishTime>
+    </File>
+    <File Include="Images/Photos/6.jpg">
+      <publishTime>02/28/2013 01:15:26</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/28/2013 02:31:09</publishTime>
+    </File>
+    <File Include="Pages/Ajouter.aspx">
+      <publishTime>03/21/2013 12:46:43</publishTime>
+    </File>
+    <File Include="Pages/CapsulesSante.aspx">
+      <publishTime>03/01/2013 07:05:27</publishTime>
+    </File>
+    <File Include="Pages/Compte.aspx">
+      <publishTime>04/03/2013 10:17:24</publishTime>
+    </File>
+    <File Include="Pages/Confirmation.aspx">
+      <publishTime>03/01/2013 07:07:04</publishTime>
+    </File>
+    <File Include="Pages/CreerCompte.aspx">
+      <publishTime>03/01/2013 10:31:54</publishTime>
+    </File>
+    <File Include="Pages/Deconnexion.aspx">
+      <publishTime>03/01/2013 08:22:12</publishTime>
+    </File>
+    <File Include="Pages/DroitsInsufisants.aspx">
+      <publishTime>03/01/2013 07:08:05</publishTime>
+    </File>
+    <File Include="Pages/FinSession.aspx">
+      <publishTime>03/01/2013 07:15:04</publishTime>
+    </File>
+    <File Include="Pages/Historique.aspx">
+      <publishTime>03/01/2013 07:09:37</publishTime>
+    </File>
+    <File Include="Pages/NousJoindre.aspx">
+      <publishTime>03/01/2013 07:11:01</publishTime>
+    </File>
+    <File Include="Pages/Photos.aspx">
+      <publishTime>03/01/2013 07:11:46</publishTime>
+    </File>
+    <File Include="Pages/Statistique.aspx">
+      <publishTime>03/01/2013 08:32:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.js">
+      <publishTime>02/28/2013 02:30:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.js">
+      <publishTime>02/28/2013 02:30:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.9.1.min.map">
+      <publishTime>02/28/2013 02:30:44</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/lib/jquery.jcarousel.min.js">
+      <publishTime>03/01/2013 08:31:15</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/lib/jquery.pikachoose.full.js">
+      <publishTime>03/01/2013 08:31:15</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/lib/jquery.pikachoose.js">
+      <publishTime>03/01/2013 08:31:15</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/base.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/basic.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/bottom.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/css3.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/fastf.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/left-without.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/left.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/loading.gif">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/next-horizontal.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/next-vertical.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/next.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/pause.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/play.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/prev-horizontal.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/prev-vertical.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/prev.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/rewind.png">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/right-without.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/right.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/simple.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/tooltip.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Scripts/pikachoose-4.5.0/styles/transitions.css">
+      <publishTime>03/01/2013 08:31:22</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>04/03/2013 08:23:11</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/04/2013 15:00:11</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>02/28/2013 01:11:32</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" CodeBehind="Site.Master.cs" Inherits="Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head id="Head1" runat="server">
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="~/App_Themes/Orange/Site.css" rel="stylesheet" type="text/css" />
+    <link rel="Shortcut Icon" href="/Images/CS.ico" />
+    
+    
+    <!-- script src="/Scripts/jquery-1.9.1.js">-->
+	<!--<link rel="stylesheet" href="Scripts/imenu/normalize.css">-->
+	<!--<link rel="stylesheet" href="Scripts/imenu/style.css">-->
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>           
+    <script src="//cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Contenu');
+        </script>
+</head>
+<body>
+    <form id="Form1" runat="server">
+        
+        <div class="header">
+            <asp:HyperLink ID="logoCegep" CssClass="logoCegep" runat="server" NavigateUrl="~/Default.aspx">
+                <asp:Image ImageUrl="~/Images/logocegep.jpg" runat="server" />
+            </asp:HyperLink>
+            <div class="headerTitre">
+                <asp:Label ID="linkButtonBougeotte" runat="server" CssClass="textesimple title_credit_sante" Style="color: #DE5900" Font-Size="28px" Font-Bold="true" />
+                <asp:Label ID="litInitiative" CssClass="initiative" runat="server" Font-Size="Large" Font-Bold="true" />
+                <asp:Label ID="litSupport" CssClass="support" runat="server" Font-Size="Medium" Font-Bold="true" />
+            </div>
+
+            <div class="clear hideSkiplink" >
+                <nav class="clearfix" style="display:none;">
+		        <ul class="clearfix">
+			        <li><a href="#">Home</a></li>
+			        <li><a href="#">How-to</a></li>
+			        <li><a href="#">Icons</a></li>
+			        <li><a href="#">Design</a></li>
+			        <li><a href="#">Web 2.0</a></li>
+			        <li><a href="#">Tools</a></li>	
+		        </ul>
+		        <a href="#" id="pull">Menu</a>
+	        </nav>
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                    IncludeStyleBlock="false" Orientation="Horizontal" PathSeparator=",">
+                </asp:Menu>
+                <asp:SiteMapDataSource ID="dataSourceMenu" runat="server" ShowStartingNode="false" />
+            </div>
+        </div>
+        <div class="page">
+            <div class="filDAriane">
+                <asp:SiteMapPath ID="FilDAriane" runat="server" Font-Names="Verdana" Font-Size="0.8em"
+                    PathSeparator=" : ">
+                    <CurrentNodeStyle ForeColor="#333333" />
+                    <NodeStyle Font-Bold="True" ForeColor="#990000" />
+                    <PathSeparatorStyle Font-Bold="True" ForeColor="#990000" />
+                    <RootNodeStyle Font-Bold="True" ForeColor="#FF8000" />
+                </asp:SiteMapPath>
+            </div>
+            <div class="boutonCréditSanté" style="float: right; margin-top: -10px;">
+                <asp:HyperLink ID="linkCompte" NavigateUrl="~/Pages/Compte.aspx" runat="server" Visible="false"></asp:HyperLink>
+                <asp:HyperLink ID="linkDeDeconnexion" NavigateUrl="~/Pages/Deconnexion.aspx" runat="server"
+                    Visible="false"></asp:HyperLink>
+            </div>
+            <div id="main" class="main">
+                <asp:ScriptManager runat="server" EnableScriptGlobalization="true" EnableScriptLocalization="true" ID="ScriptManager" />
+                <asp:UpdatePanel ID="UP" runat="server" ChildrenAsTriggers="true">
+                    <ContentTemplate>
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+            </div>
+        </div>
+        <div class="footer">
+            <asp:Label ID="copyright" runat="server" CssClass="copyright">Tous les droits réservés au Cégep Saint-Jean-sur-Richelieu</asp:Label>
+            <asp:Label ID="creator" runat="server">Design et conception par </asp:Label><a href="mailto:francis.labonte17@gmail.com">Francis&nbsp;Labonté</a>
+        </div>
+    </form>
+
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="<%= Page.ResolveClientUrl("~/Scripts/jquery-1.9.1.js") %>"></script>
+
+    <script>
+        $(document).ready(function () {
+        });
+
+        $(function () {
+            var pull = $('#pull');
+            menu = $('nav ul');
+            menuHeight = menu.height();
+
+            pull.on('click', function (e) {
+                e.preventDefault();
+                menu.slideToggle();
+            });
+
+            $(window).resize(function () {
+                var w = $(window).width();
+                if (w > 320 && menu.is(':hidden')) {
+                    menu.removeAttr('style');
+                }
+            });
+        });
+
+        function show_menu() {
+
+        }
+
+    </script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
+

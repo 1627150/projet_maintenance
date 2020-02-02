@@ -1,0 +1,15 @@
+[Tt]humbs.db
+*.DS_Store
+*.[Oo]bj
+.vs
+creditsante.zip
+obj/
+[Bb]in
+[Bb]uild/
+[Rr]elease*/
+.svn
+*.log
+~$*
+App_Data/CreditSante.mdf
+App_Data/CreditSante_log.ldf
+**/[Pp]ackages/*

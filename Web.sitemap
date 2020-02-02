@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Pages/Ajouter.aspx" title="Accueil"  description="Crédits $anté®" roles="*" >
+    <siteMapNode url="~/Administration/Gestion.aspx" title="Gestion"  description="Menu de gestion" roles="Administrateur">
+      <siteMapNode url="~/Administration/GestionConcentration.aspx" title="Gestion des concentrations" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/GestionSeances.aspx" title="Gestion des séances d'entrainement" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/GestionCapsulesSante.aspx" title="Gestion des Capsules Santés" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/GestionUtilisateur.aspx" title="Gestion des utilisateurs" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/GestionEntreesSuspectes.aspx" title="Gestion des entrées suspectes" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/Affichage.aspx" title="Gestion de l'affichage de l'application" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/Affichage/GestionAfficheAccueil.aspx" title="Gérer l'affiche de l'accueil" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/Affichage/GestionLogoCegep.aspx" title="Gérer le logo du cégep" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/Affichage/GestionPhotosBougeotte.aspx" title="Gérer les photos de la Bougeotte" roles="Administrateur"/>
+      <siteMapNode url="~/Administration/Parametres.aspx" title="Paramètres de l'application" roles="Administrateur"/>
+    </siteMapNode>
+    <siteMapNode url="~/Pages/Photos.aspx" title="Album photos" roles="*" />
+    <siteMapNode url="~/Pages/CapsulesSante.aspx" title="Capsules Santé" roles="*" />
+    <siteMapNode url="~/Pages/Statistique.aspx" title="Statistiques globales" roles="*" />
+    <siteMapNode url="~/Pages/Historique.aspx" title="Historique" roles="*" />
+    <siteMapNode url="~/Pages/APropos.aspx" title="À propos de Crédits $anté®?" roles="*" />
+    <siteMapNode url="~/Pages/NousJoindre.aspx" title="Nous joindre" roles="*" />
+  </siteMapNode>
+</siteMap>

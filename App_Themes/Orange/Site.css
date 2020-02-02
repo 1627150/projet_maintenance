@@ -1,0 +1,1049 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body {
+    background: #ffffff;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+a.textesimple:link {
+    text-decoration: none;
+}
+
+a.textesimple:hover {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #de5900;
+}
+
+a:hover {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:active {
+}
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+.headerTitre {
+    font-size: 1.5em;
+    color: #424141;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-top: 15px;
+    float: right;
+    position: relative;
+    margin-right: 15px;
+    text-align: right;
+}
+
+    .headerTitre span {
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+    .headerTitre .support {
+        display: block;
+    }
+
+h1 {
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 {
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.page {
+    /**max-width: 1024px;*/ 
+    /**/ width: 939px;
+    background-color: #fff;
+    margin: 0 auto 0 auto;
+    border-left: 1px solid #496077;
+    border-right: 1px solid #496077;
+}
+
+.langue {
+    text-align: right;
+}
+
+.header {
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    /* max-width: 1024px;*/
+    /**/ width: 939px;
+    border-left: 1px solid #496077;
+    border-right: 1px solid #496077;
+    background: #ffffff; /* Old browsers */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffffff, endColorstr=#ff832b, GradientType=1)";
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIyMiUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZmY4MzJiIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(left, #ffffff 22%, #ff832b 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(22%,#ffffff), color-stop(100%,#ff832b)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, #ffffff 22%,#ff832b 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, #ffffff 22%,#ff832b 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, #ffffff 22%,#ff832b 100%); /* IE10+ */
+    background: linear-gradient(to right, #ffffff 22%,#ff832b 100%); /* W3C */
+}
+
+
+    .header h1 {
+        font-weight: 700;
+        margin: 0px;
+        border: none;
+        line-height: 2em;
+        font-size: 2em;
+        margin-right: 85px;
+    }
+
+.main {
+    padding: 5px 12px;
+    margin: 12px 8px 0px 8px;
+    min-height: 420px;
+}
+
+.leftCol {
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 200px;
+    min-height: 200px;
+}
+
+.footer {
+    color: white;
+    padding: 15px 0px;
+    text-align: right;
+    /* max-width: 1024px;*/
+    /* */width: 939px;
+    margin: auto;
+    background-color: #DE5900;
+    border: 1px solid #496077;
+    border-top: none;
+}
+
+    .footer a {
+        margin-right: 15px;
+    }
+
+        .footer a,
+        .footer a:visited,
+        .footer a:hover {
+            color: white;
+        }
+
+    .footer .copyright {
+        float:left;
+        margin-left:10px;
+    }
+
+/* TAB MENU   
+----------------------------------------------------------*/
+
+div.menu {
+}
+
+    div.menu ul {
+        list-style: none;
+        margin: 0 auto;
+        width: 1024px;
+    }
+
+        div.menu ul li a, div.menu ul li a:visited {
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 0px;
+            border-left-width: 1px;
+            border-top-color: #4E667D;
+            border-right-color: #4E667D;
+            border-left-color: #4E667D;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-left-style: solid;
+            color: #de5900;
+            display: block;
+            line-height: 1.35em;
+            padding: 4px 15px;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: White;
+        }
+
+            div.menu ul li a.selected {
+                background-color: #fbd392 !important;
+                /*RPDG*/
+                font-weight: bold;
+                /*RPDG*/
+            }
+
+            div.menu ul li a:hover {
+                color: #cc0000;
+                background-color: #ffe5ba;
+                text-decoration: none;
+            }
+
+            div.menu ul li a:active {
+                text-decoration: none;
+                background-image: url("~Images/1-Tableau intensiteÌ _final 4 x6.jpg");
+            }
+
+div.filDAriane {
+    padding-left: 10px;
+    color: White !important;
+    height: 17px;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset {
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+    fieldset p {
+        margin: 2px 12px 10px 10px;
+    }
+
+    fieldset.login label, fieldset.register label, fieldset.changePassword label {
+        display: block;
+    }
+
+    fieldset label.inline {
+        display: inline;
+    }
+
+legend {
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry {
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo {
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear {
+    clear: both;
+}
+
+.finSession {
+    clear: both;
+    text-align: center;
+    margin-top: 30px;
+}
+
+* + html .clear {
+    clear: both;
+    padding-top: 40px;
+}
+
+.title {
+    display: block;
+    float: left;
+    text-align: left;
+    width: auto;
+    margin-top: 45px;
+    text-align: right;
+}
+
+div.horizontalAlign {
+    display: inline;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+.descriptionIntensite {
+    width: 290px;
+    margin-left: 10px;
+}
+
+.loginDisplay {
+    font-size: 1.1em;
+    display: block;
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+.logoCegep {
+    max-width: 200px;
+    margin-left: 25px;
+}
+
+    .logoCegep img {
+        max-width: 200px;
+        max-height: 120px;
+    }
+
+.imageAccueil {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.boutonCréditSanté a {
+    position: relative;
+    top: 20px;
+    right: 10px;
+    color: White;
+    border: 2px solid dimGray;
+    padding: 5px;
+    background-color: #FF6A00;
+    -webkit-box-shadow: black 3px 3px 4px 1px;
+    box-shadow: black 3px 3px 4px 1px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+    .boutonCréditSanté a:active {
+        -webkit-box-shadow: black 1px 1px 1px 1px;
+        box-shadow: black 1px 1px 1px 1px;
+    }
+
+    .boutonCréditSanté a:link {
+        color: white;
+    }
+
+    .boutonCréditSanté a:visited {
+        color: white;
+    }
+
+    .boutonCréditSanté a:hover {
+        color: white;
+        background-color: #ff8438;
+    }
+
+.failureNotification {
+    font-size: 1.2em;
+    color: Red;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.submitButton {
+    text-align: right;
+    padding-right: 10px;
+}
+
+/******************************/
+.messageErreur {
+    font-size: 9pt;
+    color: Red;
+}
+
+.contenu {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu a {
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.menu li {
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.menu {
+    border-bottom: 2px solid;
+    width: 100%;
+}
+
+.title {
+    float: right;
+    clear: none;
+}
+
+title h1 {
+    color: white !important;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.formulaire .messageErreur {
+    position: absolute;
+}
+
+a img {
+    border: none;
+}
+
+
+.paramètreForm > tbody > tr > td {
+    padding: 0 15px 0 0;
+}
+
+.alignRight {
+    text-align: right;
+}
+
+.emptyGrid span {
+    text-align: right;
+}
+
+.hidden {
+    display: none;
+}
+
+.emptyGrid input {
+}
+
+.capsules_sante span.titre_page {
+    font-size: 1.5em;
+    font-weight: 600;
+    width: auto !important;
+    margin: 0;
+}
+
+.capsules_sante span {
+    display: block;
+    margin-bottom: 25px !important;
+    margin: auto;
+}
+
+.capsules_sante a.hyperlink {
+    text-decoration: underline;
+    font-size: 14px;
+    font-weight: normal;
+    display: inline;
+}
+
+    .capsules_sante a.hyperlink:hover {
+        color: #de5900;
+        cursor: pointer;
+    }
+
+.capsules_sante a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+    .capsules_sante a:hover {
+        color: #de5900;
+        cursor: default;
+    }
+
+table.stats_table {
+    border: 5px solid #ff8438;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+    border-radius: 13px;
+}
+
+    table.stats_table td {
+        border-bottom: 1px dotted black;
+        padding: 5px;
+    }
+
+.modalBackground {
+    background-color: #000;
+    filter: alpha(opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.modalPanel {
+    background-image: linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -o-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -moz-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -webkit-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -ms-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -webkit-gradient( linear, right top, left top, color-stop(0.11, rgb(255,255,255)), color-stop(1, rgb(168,168,168)) );
+    padding: 35px;
+    font-size: 1.2em;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #000;
+    text-align: left;
+    color: black !important;
+}
+
+.modalHeader {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.modalTitre {
+    margin-bottom: 0px;
+}
+
+.modalButton {
+    margin-top: 10px;
+}
+
+.modalError {
+    margin: 0px;
+    padding: 0px;
+    font-size: smaller;
+    color: red;
+}
+
+
+/********************/
+/*  FENETRE MODALE  */
+/********************/
+
+#fade { /*--Masque opaque noir de fond--*/
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .80;
+    z-index: 9999;
+}
+
+.popup_block {
+    background-image: linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -o-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -moz-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -webkit-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -ms-linear-gradient(right, rgb(255,255,255) 11%, rgb(168,168,168) 100%);
+    background-image: -webkit-gradient( linear, right top, left top, color-stop(0.11, rgb(255,255,255)), color-stop(1, rgb(168,168,168)) );
+    padding: 35px;
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    -webkit-box-shadow: 0px 0px 20px #000;
+    -moz-box-shadow: 0px 0px 20px #000;
+    box-shadow: 0px 0px 20px #000;
+}
+
+    .popup_block h2 {
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 21px;
+        margin: 0px 0px 30px 0px !important;
+    }
+
+    .popup_block img {
+        cursor: pointer;
+    }
+
+    .popup_block .button {
+        cursor: pointer;
+        background-color: aqua;
+        float: left;
+    }
+
+        .popup_block .button p {
+            padding: 10px !important;
+            margin: 0px !important;
+        }
+
+    .popup_block > p {
+        font-size: 14px;
+        margin-bottom: 25px;
+        line-height: 1.5em;
+    }
+
+    .popup_block hr {
+        color: #a2a9a8;
+        background-color: #a2a9a8;
+        height: 1px;
+        border: none;
+        margin-bottom: 30px;
+    }
+
+img.btn_close {
+    float: right;
+    position: relative;
+    left: 22px;
+    bottom: 22px;
+}
+
+/*--Gérer la position fixed pour IE6--*/
+html #fade {
+    position: absolute;
+}
+
+html .popup_block {
+    position: absolute;
+}
+
+.dateButton {
+    vertical-align: middle;
+    position: relative;
+    top: -3px;
+}
+
+.ajax__calendar_footer {
+    display: none;
+}
+
+#ajout .tableau_calcul {
+    height: 100%;
+    width: 100%;
+}
+
+.accueil .connexion {
+    display: none;
+}
+
+.photos .photos_images {
+        display:none;
+    }
+
+.popUpMenu:hover {
+    background-color:#DE5900;
+
+}
+.popUpMenu {
+    width:50px;
+    height:50px;
+    background-image:url("../../images/gear_icon.png");
+}
+
+.popUpMenu:hover {
+    background-image:url("../../images/gear_icon_hover.png");
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.btn-alert {
+    color: #fff!important;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+/*
+@media screen and (max-width:1024px) {
+    .header,
+    .page,
+    .footer {
+        width: 100%;
+    }
+
+        .header nav {
+            display:block !important;
+        }
+
+    .header div.menu  {
+        display:none;
+    }
+
+    .accueil .image_accueil {
+        width: 55%;
+    }
+
+
+        .accueil .image_accueil img {
+            width: 100%;
+            height: 100%;
+        }
+
+    .logoCegep {
+        width: 20%;
+        margin-left: 0.200em;
+    }
+
+        .logoCegep img {
+            width: 20%;
+        }
+
+    .headerTitre {
+        width: 75%;
+        margin-top: 0.5em;
+    }
+
+    .header div.menu {
+        border-bottom: 2px solid;
+        width: 100%;
+    }
+
+        .header div.menu ul {
+            list-style: none;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0px;
+        }
+
+        .header div.menu a {
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+        }
+
+        .header div.menu li {
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+            padding-right: 0px;
+            text-align: center;
+        }
+
+        .header div.menu ul li a, div.menu ul li a:visited {
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 0px;
+            border-left-width: 1px;
+            border-top-color: #4E667D;
+            border-right-color: #4E667D;
+            border-left-color: #4E667D;
+            border-top-style: solid;
+            border-right-style: solid;
+            border-left-style: solid;
+            color: #de5900;
+            display: block;
+            line-height: 1.35em;
+            padding: 4px 5px;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: White;
+        }
+
+            .header div.menu ul li a.selected {
+                background-color: #fbd392 !important;
+                /* RPDG *//*
+                font-weight: bold;
+                /* RPDG*//*
+            }
+
+            .header div.menu ul li a:hover {
+                color: #cc0000;
+                background-color: #ffe5ba;
+                text-decoration: none;
+            }
+
+            .header div.menu ul li a:active {
+                text-decoration: none;
+                background-image: url("~Images/1-Tableau intensiteÌ _final 4 x6.jpg");
+            }
+}
+
+@media screen and (max-width:785px) {
+    .headerTitre .initiative {
+        display: block;
+    }
+
+    .headerTitre {
+        text-align: left;
+        margin-top: 0em;
+    }
+
+    .statistiques .option_table >tbody > tr > td {
+        display:table-row;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .headerTitre .support {
+        display: none;
+    }
+
+    
+}
+
+@media screen and (max-width:635px) {
+    .filDAriane {
+        display: none;
+    }
+
+    .main {
+        margin-top: 0px;
+        min-height: 300px;
+    }
+
+        .main h2 {
+            margin-top:35px;
+        }
+
+
+    .statistiques .stats_table {
+        border:none !important;
+    }
+
+    .option_table,
+    .option_table fieldset {
+        margin:auto;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .accueil .image_accueil {
+        display: none;
+    }
+
+    .accueil fieldset {
+        border: none;
+        margin: auto;
+    }
+
+        .accueil fieldset legend {
+            display: none;
+        }
+}
+
+@media screen and (max-width:540px) {
+
+    .photos .pikachoose {
+        display:none;
+    }
+
+    .photos .photos_images {
+        display:block;
+    }
+
+    .photos .photos_images img {
+        width:100%;
+    }
+
+    .headerTitre .initiative {
+        display: none;
+    }
+
+    .header div.menu ul {
+        width: 100% !important;
+    }
+
+        .header div.menu ul li {
+            float: none !important;
+        }
+
+    .modal_window > div {
+        width:90%;
+    }
+
+    .modal_window textarea,
+    .modal_window input[type=text],
+    .modal_window select {
+        width:100% !important;
+    }
+
+    .main > div {
+        margin-top:25px
+    }
+
+    
+
+    .main {
+        min-height: 0;
+    }
+
+    .headerTitre {
+        width: 200px;
+        margin: auto;
+    }
+
+    .accueil .bienvenue {
+        display: none;
+    }
+
+    .accueil .connexion {
+        display: block;
+        width: 100px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:340px) {
+    .header .logoCegep {
+        display: none;
+    }
+
+    .statistiques fieldset {
+        border:none;
+    }
+
+    .headerTitre {
+        float: left;
+        margin-bottom: 5px;
+    }
+
+    .account fieldset {
+        border:none;
+        margin:0;
+        padding:0;
+    }
+
+    .account fieldset legend {
+        display:none;
+    }
+
+    .account td,
+    .account input,
+    .account select {
+        width:100% !important;
+    }
+}
+    
+/* Smartphones (portrait and landscape) ----------- 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .headerTitre .support {
+        display: none;
+    }
+}
+
+/* Smartphones (landscape) ----------- 
+@media only screen and (min-width : 321px) {
+    /* Styles */
+}
+
+/* Smartphones (portrait) ----------- 
+@media only screen and (max-width : 320px) {
+}
+
+/* iPads (portrait and landscape) ----------- 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+}
+
+/* iPads (landscape) ----------- 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    img {
+        width: 80%;
+        height: 80%;
+    }
+
+    .pickachoose {
+        width: 520px;
+    }
+
+        .pickachoose img {
+            width: auto;
+            height: auto;
+        }
+
+        .pickachoose .picka_stage {
+            width: auto;
+        }
+
+    .logoCegep {
+        width: 20%;
+        margin-left: 0.200em;
+    }
+
+        .logoCegep img {
+            width: 20%;
+        }
+
+    .headerTitre {
+        width: 75%;
+    }
+}
+
+/* iPads (portrait) ----------- 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .headerTitre .support {
+        display: block;
+    }
+}
+
+/* Desktops and laptops ----------- 
+@media only screen and (min-width : 1224px) {
+    /* Styles 
+}
+
+/* Large screens ----------- 
+@media only screen and (min-width : 1824px) {
+    /* Styles 
+}
+
+/* iPhone 4 ----------- 
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+    /* Styles 
+}
+    */
